@@ -35,8 +35,7 @@ const Header = ({
               variant="primary"
               label="На головну"
               href="/"
-          >
-            
+          >            
           </SmartButton>
 
           {/* {isPrivacy ? (
