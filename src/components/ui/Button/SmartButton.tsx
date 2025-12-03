@@ -39,9 +39,9 @@ export default function SmartButton({
 
   const variantClasses = {
     primary:
-      "bg-cod-gray lg:bg-woodsmoke-dimmed border-tangerine lg:border-star-dust-400 text-tangerine lg:text-star-dust-400 border-1 hover:text-tangerine hover:border-tangerine focus:outline-tangerine focus:outline-2 focus:text-tangerine",
+      "bg-trend-200 lg:bg-transparent border-trend-700 lg:border-trend-700 text-tangerine lg:text-trend-700 border-1 hover:text-chilean-fire hover:border-chilean-fire focus:outline-tangerine focus:outline-2 focus:text-tangerine",
     secondary:
-      "text-cod-gray bg-tangerine hover:bg-chilean-fire focus:bg-chilean-fire focus:outline-chilean-fire focus:outline-2 font-bold",
+      "text-trend-400 bg-tangerine hover:text-chilean-fire focus:bg-chilean-fire focus:outline-chilean-fire focus:outline-2 font-bold",
     danger:
       "bg-red-100 text-red-700 border-red-300 hover:bg-red-500 hover:text-white",
   } as const;
