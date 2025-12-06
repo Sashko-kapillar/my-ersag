@@ -1,9 +1,8 @@
 import SmartButton from "@/components/ui/Button/SmartButton";
 
 const HeroTitle = () => {
-  return (
-    <section className="w-full relative pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
-      <div className="section flex gap-5.5 flex-col max-h-full h-full">
+  return (    
+      <div className="flex gap-5.5 flex-col max-h-full h-full 1xl:pl-10 lg:max-w-[800px]">
         {/* <VideoPlayer /> */}
         <h1 className="font-second text-master-600">Природна турбота, що працює щодня</h1>
         <p className="max-w-100 text-xl">М’який і природний догляд, створений для щоденного комфорту та гармонії</p>
@@ -15,7 +14,6 @@ const HeroTitle = () => {
             >            
         </SmartButton>
       </div>
-    </section>
   );
 };
 

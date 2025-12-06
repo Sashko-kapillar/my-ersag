@@ -11,9 +11,8 @@ const Hero = () => {
       url('/images/hero-bg@3x.webp') 3x
     )` }}
   />
-      <div className="flex justify-between gap-5.5 flex-col max-h-full h-full w-1/2">
+      
         <HeroTitle />
-      </div>
     </section>
   );
 };
