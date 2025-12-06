@@ -83,7 +83,7 @@
 }
 
 @theme {
-  --font-primary: 'Nunito Sans', sans-serif;
+  --font-primary: 'NunitoSans', sans-serif;
   --font-second: 'Unbounded', sans-serif;
   --font-third: 'Inter', sans-serif;
   --font-fourth: 'Sofia Sans', sans-serif;
@@ -102,7 +102,7 @@
   --color-master-600: #8C5A86;
   --color-master-500: #b580b0;
   --color-white: #fafafa;
-  --color-bg-white: #f4f3f2;
+  --color-bg-white: #F8F3ED;
   --color-trend-700: #705a82;
   --color-trend-200: #faf6f2;
   --color-icon-wisteria-600: #A071AB;

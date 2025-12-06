@@ -13,20 +13,23 @@ interface BenefitCardProps {
 }
 
 const iconsMap: Record<BenefitCardProps["icon"], ReactNode> = {
-  Leaf: <Leaf size={80} strokeWidth={0.6} className="text-icon-wisteria-600" />,
-  FlaskConical: <FlaskConical size={80} strokeWidth={0.6} className="text-icon-wisteria-600" />,
-  Flower2: <Flower2 size={80} strokeWidth={0.6} className="text-icon-wisteria-600" />,
-  HandHeart: <HandHeart size={80} strokeWidth={0.6} className="text-icon-wisteria-600" />,
+  Leaf: <Leaf size={96} strokeWidth={0.6} className="text-icon-wisteria-600" />,
+  FlaskConical: <FlaskConical size={96} strokeWidth={0.6} className="text-icon-wisteria-600" />,
+  Flower2: <Flower2 size={96} strokeWidth={0.6} className="text-icon-wisteria-600" />,
+  HandHeart: <HandHeart size={96} strokeWidth={0.6} className="text-icon-wisteria-600" />,
 };
 
 const BenefitCard = ({ icon, title, text }: BenefitCardProps) => {
   return (
     <div className="
-      relative flex gap-14 p-12 rounded-3xl
+      relative flex gap-10 p-12 rounded-3xl
       bg-white 
-      shadow-[0_8px_28px_rgba(0,0,0,0.06)]
+      shadow-[0_10px_40px_rgba(0,0,0,0.06)]
       border border-white/40
     ">
+      
+      <span className="absolute -top-4 left-6 w-20 h-20 bg-purple-200/10 rounded-full blur-2xl" />
+
       <div className="relative z-10 flex items-center justify-center">
         {iconsMap[icon]}
       </div>
