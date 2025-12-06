@@ -1,10 +1,19 @@
+import SmartButton from "@/components/ui/Button/SmartButton";
 
 const HeroTitle = () => {
   return (
     <section className="w-full relative pb-40 1xl:pb-55 3xl:pb-60 4xl:pb-70">
-      <div className="section flex justify-between gap-5.5 flex-col items-start 1xl:items-center 1xl:justify-center-safe max-h-full h-full">
-        {/* <VideoPlayer /> */}<p>Text control</p>
-        <h1 className="font-second text-red-500">Text Option</h1>
+      <div className="section flex gap-5.5 flex-col max-h-full h-full">
+        {/* <VideoPlayer /> */}
+        <h1 className="font-second text-master-600">Природна турбота, що працює щодня</h1>
+        <p className="max-w-100 text-xl">М’який і природний догляд, створений для щоденного комфорту та гармонії</p>
+        <SmartButton
+            className="flex items-end text-xl lg:bg-master-500 lg:text-white hover:lg:bg-transparent hover:lg:text-chilean-fire hover:lg:border-chilean-fire transition-all duration-300 ease-out hover:-translate-y-0.5 hover:shadow-lg"
+            variant="primary"
+            label="Дізнатися більше"
+            href="#contact-form"
+            >            
+        </SmartButton>
       </div>
     </section>
   );

@@ -97,41 +97,17 @@
   --breakpoint-4xl: 2560px;
 
   /* Custom colors */
-  --color-black: #000000;
-  --color-cod-black: #080808;
-  --color-cod-gray: #0d0d0d;
-  --color-cod-dark: #100f0f;
-  --color-woodsmoke-dark: #151515;
-  --color-woodsmoke-dust: #141414;
-  --color-woodsmoke-black: #1a1a1a;
-  --color-woodsmoke-light: #1c1c1c;
-  --color-woodsmoke-bright: #1d1d1d;
-  --color-woodsmoke-dimmed: #191919;
-  --color-mine-shaft: #303030;
-  --color-tuatara: #393939;
-  --color-masala-light: #404040;
-  --color-masala-gray: #454545;
-  --color-fuscous-gray: #4f4f4f;
-  --color-chicago-gray: #5d5d5d;
-  --color-storm-dust: #626262;
-  --color-boulder-dark: #777;
-  --color-boulder-gray: #767676;
-  --color-boulder-dust: #757575;
-  --color-boulder-light: #7b7b7b;
-  --color-star-dust: #9b9b9b;
-  --color-silver: #bdbdbd;
-  --color-silver-chalice: #a8a8a8;
-  --color-star-dust-400: #a0a0a0;
-  --color-white: #ffffff;
-  --color-dust-white: #f3f3f3;
-  --color-gallery-white: #ececec;
-  --color-mercury-white: #e6e6e6;
-  --color-alto-white: #dadada;
-  --color-trend-700: #0051a5;
-  --color-trend-200: #b8dcff;
-  --color-chilean-fire: #f1770a;
-  --color-persian-red: #d12d2d;
-  --color-gray: #7f7f7f;
+  --color-black: ##4f4744; 
+  --color-stone-text-800: #7A6E66;
+  --color-master-600: #8C5A86;
+  --color-master-500: #b580b0;
+  --color-white: #fafafa;
+  --color-bg-white: #f4f3f2;
+  --color-trend-700: #705a82;
+  --color-trend-200: #faf6f2;
+  --color-icon-wisteria-600: #A071AB;
+  --color-bg-violet: #ebeaf0;
+  --color-chilean-fire: #d97f30;
   --color-form: rgba(230, 230, 230, 0.5);
   --color-mountain-mist: #8d8d8d;
 }
@@ -150,7 +126,7 @@
   }
 
   body {
-    @apply font-primary text-cod-black bg-dust-white text-base leading-[1.37] h-full;
+    @apply font-primary text-stone-text-800 bg-bg-white text-base leading-[1.37] h-full;
     scrollbar-gutter: stable;
   }
 

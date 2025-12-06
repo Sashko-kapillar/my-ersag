@@ -21,7 +21,7 @@ const Header = ({
 
   return (
     <>
-      <header className="bg-masala-light lg:bg-trend-200 relative z-100 w-full">
+      <header className="bg-masala-light lg:bg-trend-200/40 relative z-100 w-full">
         <div className="section flex gap-20 py-3.5 1xl:py-4 min-h-17 h-full items-center justify-end">
           {/* <a href="/" className="w-1/3">
             <span className="sr-only">Повернутись на головну</span>

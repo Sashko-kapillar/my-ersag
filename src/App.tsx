@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import Header from './components/Header/header'
 import Hero from './components/Hero/Hero'
+import { BenefitsSection } from './components/Benefits'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <main>
       <Hero />
+      <BenefitsSection />
       </main>
       {/* <footer /> */}
     </>
